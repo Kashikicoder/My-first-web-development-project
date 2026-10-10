@@ -27,6 +27,9 @@ body{
   padding:20px;
   text-align:center;
 }
+h1{
+  color:#92400e;
+}
 
 .ghats{
   display:flex;
@@ -37,10 +40,10 @@ body{
 }
 .card{
   background:white;
-  width:250px;
-  padding:15px;
+  width:280px;
+  padding:20px;
   border-radius:12px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
 }
 .card h3{
   margin: 5px 0;
@@ -53,4 +56,13 @@ button{
   border:none;
   border-radius:8px;
   cursor:pointer;
+  margin:5px;
+}
+.box{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  max-width:400px;
+  margin:80px auto;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
 }
